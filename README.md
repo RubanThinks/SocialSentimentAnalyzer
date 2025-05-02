@@ -1,27 +1,29 @@
-📊 Social Sentiment Analyzer
-💬 A beginner-friendly sentiment analysis tool that classifies text into Positive, Negative, or Neutral using machine learning. This version focuses on training and evaluating the model on a labeled dataset — no live Instagram scraping yet!
+🌐 Social Sentiment Analyzer
+💡 Analyze the mood of the internet — one sentence at a time.
 
-🧠 Project Overview
-Social Sentiment Analyzer is a foundational project in Natural Language Processing (NLP) that helps understand the emotional tone behind social media-style text. It uses a labeled dataset to train a model and evaluate its performance on test data with a focus on simplicity and clarity.
+Social Sentiment Analyzer is a beginner-friendly NLP project that uses machine learning to classify text into Positive, Negative, or Neutral sentiments. This version is a solid foundation for future expansion into real-time Instagram comment analysis.
 
-🚀 Current Features:
+✨ Features
+✅ Sentiment classification using traditional ML algorithms
+✅ Text preprocessing using NLP techniques (tokenization, stopword removal)
+✅ Clean and modular Python code
+🚧 Real-time Instagram scraping (coming soon)
+📊 Streamlit web UI (planned)
 
-Clean and preprocess text data using NLP techniques
+🧠 What It Does
+Social Sentiment Analyzer takes in labeled text data, trains a sentiment classification model, and evaluates its accuracy. It helps you understand how people feel about content — a crucial tool for:
 
-Train a sentiment classifier (Logistic Regression / Naive Bayes / SVM)
+🌟 Brand sentiment tracking
 
-Display model accuracy on test data
+📰 Social media monitoring
 
-🧪 Coming Soon:
+🧪 NLP practice & learning
 
-Real-time Instagram comment scraping with Selenium
+⚙️ Tech Stack
+Tool	Role
+Python 🐍	Core programming
+Scikit-learn 🤖	Machine learning models
+Pandas 📊	Data handling
+NLTK 🔤	NLP preprocessing
+Matplotlib 📈 (optional)	Future visualizations
 
-Live sentiment prediction and visualization
-
-🛠 Tech Stack
-Tool	Purpose
-Python 🐍	Main programming language
-scikit-learn 🤖	Model training and evaluation
-pandas 📊	Data manipulation
-NLTK 🔤	Text preprocessing (tokenization, stopwords)
-matplotlib 📈 (optional)	Future visualizations
